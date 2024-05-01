@@ -28,7 +28,6 @@ def draw_number():
     draw_text = number_Font.render(str(randomlist), 1, BLACK)
     WIN.blit(draw_text, (WIDTH/2 - draw_text.get_width()/2, HEIGHT/2 - draw_text.get_height()/2))
     pygame.display.update()
-    pygame.display.update()
     pygame.time.delay(DELAY)
 
 def main():
